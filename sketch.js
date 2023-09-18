@@ -14,3 +14,12 @@ function draw() {
     speed = speed * -1
   }
 }
+
+function mouseClicked() {
+  if (isLooping()) {
+    noLoop();
+  } else {
+    loop();
+  }
+  
+}
