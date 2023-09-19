@@ -50,6 +50,13 @@ function mouseClicked() {
   
 }
 
+function keyPressed() {
+  if (keyPressed) {
+    print('hello');
+  }
+  
+}
+
 //not sure how to get this working, it runs without error though.
 // function color(){
 
