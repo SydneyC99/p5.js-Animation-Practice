@@ -54,7 +54,8 @@ function keyTyped() {
   if (key === 'j' || 'J') {
     print('hello');
     console.log(x);
-  
+    //Calls the x position but doesn't call the direction.
+    //something with accelerationX?
   }
 }
 
