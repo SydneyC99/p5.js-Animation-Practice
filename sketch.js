@@ -53,6 +53,7 @@ function mouseClicked() {
 function keyTyped() {
   if (key === 'j' || 'J') {
     print('hello');
+    console.log(x);
   
   }
 }
