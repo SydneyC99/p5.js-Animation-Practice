@@ -50,8 +50,8 @@ function mouseClicked() {
   
 }
 
-function keyPressed() {
-  if (keyPressed) {
+function keyTyped() {
+  if (key === 'j') {
     print('hello');
   }
   
