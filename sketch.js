@@ -51,10 +51,10 @@ function mouseClicked() {
 }
 
 function keyTyped() {
-  if (key === 'j') {
+  if (key === 'j' || 'J') {
     print('hello');
-  }
   
+  }
 }
 
 //not sure how to get this working, it runs without error though.
